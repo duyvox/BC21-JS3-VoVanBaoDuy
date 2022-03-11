@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Js3 - Vo Van Bao Duy</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="container">
+        <div class="ex1">
+            <div class="form-group">
+               <h2>Ex1</h2>
+                <p>Nhập vào 3 số nguyên</p>
+              <input type="text" name="" id="ex1__num1" class="form-control" placeholder="a =" aria-describedby="helpId">
+              <input type="text" name="" id="ex1__num2" class="form-control" placeholder="b =" aria-describedby="helpId">
+              <input type="text" name="" id="ex1__num3" class="form-control" placeholder="c =" aria-describedby="helpId">
+              <button class="btn btn-success" onclick="sort3Integers()">Tinh</button>  
+              <p id="ex1__result" class="text-info"></p>
+            </div>
+        </div>
+        <div class="ex2">
+            <h2>Ex2</h2>
+            <p>Ai là người sử dụng máy ?: </p>
+            <select class="custom-select" id = "ex2__user">
+                <option value="1">Bố</option>
+                <option value="2">Mẹ</option>
+                <option value="3">anh Trai</option>
+                <option value="4">Em Gái</option>
+              </select>
+              <button class="btn btn-success" onclick="sayHello()">Tinh</button>  
+              <p id="ex2__result" class="text-info"></p>
+        </div>
+        <div class="ex3">
+            <div class="form-group">
+               <h2>Ex3</h2>
+                <p>Nhập vào 3 số nguyên đếm số chẵn lẻ</p>
+              <input type="text" name="" id="ex3__num1" class="form-control" placeholder="a =" aria-describedby="helpId">
+              <input type="text" name="" id="ex3__num2" class="form-control" placeholder="b =" aria-describedby="helpId">
+              <input type="text" name="" id="ex3__num3" class="form-control" placeholder="c =" aria-describedby="helpId">
+              <button class="btn btn-success" onclick="countEvenAndOddNum()">Tinh</button>  
+              <p id="ex3__result" class="text-info"></p>
+            </div>
+        </div>
+        <div class="ex4">
+            <div class="form-group">
+               <h2>Ex4</h2>
+                <p>Nhập vào 3 của tam giác</p>
+              <input type="text" name="" id="ex4__edge1" class="form-control" placeholder="a =" aria-describedby="helpId">
+              <input type="text" name="" id="ex4__edge2" class="form-control" placeholder="b =" aria-describedby="helpId">
+              <input type="text" name="" id="ex4__edge3" class="form-control" placeholder="c =" aria-describedby="helpId">
+              <button class="btn btn-success" onclick="getTypeOfTriangle()">Tinh</button>  
+              <p id="ex4__result" class="text-info"></p>
+            </div>
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="./ex1.js"></script>
+    <script src="./ex2.js"></script>
+    <script src="./ex3.js"></script>
+    <script src="./ex4.js"></script>
+</body>
+</html>
